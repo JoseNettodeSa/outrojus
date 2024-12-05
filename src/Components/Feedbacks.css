@@ -1,0 +1,22 @@
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#cont textarea{
+    border-radius: 10px;
+    background-color: #A9AEA9;
+    resize: none;
+    font-size: 1.3rem;
+}
+textarea::placeholder {
+    font-size: 20px; /* Tamanho do placeholder */
+    text-align: center; /* Centraliza o placeholder */
+    color: #3b3f3b;
+    padding-top: 20px;
+}
+textarea:focus {
+    outline: none; /* Remove o contorno ao focar no campo */
+}

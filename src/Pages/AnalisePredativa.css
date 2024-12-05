@@ -1,0 +1,10 @@
+#info{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.404);
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+}
